@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NÉVOA Pod Boutique</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="NÉVOA Pod Boutique: pods premium com 12 sabores autorais, entrega expressa em São Paulo e pedido direto pelo WhatsApp.">
+<meta name="theme-color" content="#09080d">
+<meta property="og:title" content="NÉVOA Pod Boutique">
+<meta property="og:description" content="12 sabores autorais. Entrega em até 60 minutos. Peça pelo WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&family=Unbounded:wght@300;400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/sections.css">
+</head>
+<body>
+
+<!-- Ícones -->
+<svg class="sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 2.2a9.8 9.8 0 0 0-8.4 14.9L2.3 21.7l4.8-1.3A9.8 9.8 0 1 0 12 2.2z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8.7 7.4c.2-.4.5-.4.8-.4h.6c.2 0 .4.1.5.4l.8 1.9c.1.2 0 .5-.1.6l-.6.7c-.1.1-.1.3 0 .5a6.3 6.3 0 0 0 2.6 2.6c.2.1.4.1.5 0l.7-.6c.2-.1.4-.2.6-.1l1.9.8c.3.1.4.3.4.5v.6c0 .3-.1.6-.4.8-.6.4-1.4.6-2.2.4a7.6 7.6 0 0 1-5.5-5.5c-.2-.8 0-1.6.4-2.2z" fill="currentColor"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1.2 12.1a1 1 0 0 1-1 .9H7.2a1 1 0 0 1-1-.9L5 8z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 10V6.5a3 3 0 0 1 6 0V10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.4" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5L8 5.5z" fill="currentColor"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M7.5 5h3v14h-3zM13.5 5h3v14h-3z" fill="currentColor"/></symbol>
+  <symbol id="i-restart" viewBox="0 0 24 24"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3M4.5 4.5v4h4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v5.5c0 4.4-3 8.1-7 9.5-4-1.4-7-5.1-7-9.5V6l7-3z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8.8 12.2l2.2 2.2 4.4-4.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2.5L5 13.5h6l-1 8 8-11h-6l1-8z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5.5h16v10H9.5L5 19.5v-4H4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8 10.5h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 10h18M7 15h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M16 8V5.5A1.5 1.5 0 0 0 14.5 4h-9A1.5 1.5 0 0 0 4 5.5v9A1.5 1.5 0 0 0 5.5 16H8" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+</svg>
+
+<!-- Pré-carregamento -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader-inner">
+    <span class="preloader-logo">NÉVOA</span>
+    <div class="preloader-line"><i id="preloaderBar"></i></div>
+    <span class="preloader-count"><b id="preloaderCount">0</b>%</span>
+  </div>
+</div>
+
+<!-- Verificação de idade -->
+<div class="agegate" id="agegate" role="dialog" aria-modal="true" aria-labelledby="agTitle" hidden>
+  <div class="agegate-glow" aria-hidden="true"></div>
+  <div class="agegate-card">
+    <span class="eyebrow">Antes de entrar</span>
+    <h2 id="agTitle">Você tem <em>18 anos</em> ou mais?</h2>
+    <p>A NÉVOA vende produtos com nicotina, destinados exclusivamente a maiores de idade.</p>
+    <div class="agegate-actions">
+      <button class="btn btn-solid" id="agYes" type="button">Tenho 18 anos ou mais</button>
+      <button class="btn btn-ghost" id="agNo" type="button">Sou menor de idade</button>
+    </div>
+    <p class="agegate-deny" id="agDeny" hidden>Acesso permitido apenas para maiores de 18 anos.</p>
+  </div>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor-label" id="cursorLabel"></span></div>
+
+<!-- Cabeçalho -->
+<header class="nav" id="nav">
+  <div class="nav-inner wrap">
+    <a class="logo" href="#top" aria-label="NÉVOA, voltar ao início">NÉVOA<small>Pod Boutique</small></a>
+    <nav class="nav-links" aria-label="Seções">
+      <a href="#experiencia">Sabores</a>
+      <a href="#filme">O filme</a>
+      <a href="#colecao">Coleção</a>
+      <a href="#como-comprar">Como comprar</a>
+      <a href="#visite">Boutique</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="nav-wa magnetic" data-wa="" href="#" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+      <button class="bag-btn magnetic" id="bagBtn" type="button" aria-label="Abrir sacola"><svg><use href="#i-bag"/></svg><span class="bag-count" id="bagCount">0</span></button>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" hidden>
+  <nav class="mobile-menu-links wrap" aria-label="Menu">
+    <a href="#experiencia"><i>01</i>Sabores</a>
+    <a href="#filme"><i>02</i>O filme</a>
+    <a href="#colecao"><i>03</i>Coleção</a>
+    <a href="#como-comprar"><i>04</i>Como comprar</a>
+    <a href="#visite"><i>05</i>Boutique</a>
+  </nav>
+  <div class="mobile-menu-foot wrap">
+    <a class="btn btn-wa" data-wa="" href="#" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Pedir no WhatsApp</a>
+    <span data-cfg="addressShort"></span>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-orb hero-orb--a" data-speed="0.35"></div>
+      <div class="hero-orb hero-orb--b" data-speed="0.6"></div>
+      <div class="hero-word" data-speed="0.25">NÉVOA</div>
+    </div>
+    <div class="hero-parts" id="heroParts" aria-hidden="true"></div>
+
+    <div class="hero-grid wrap">
+      <div class="hero-copy">
+        <span class="eyebrow hero-eyebrow">Pod Boutique · Jardins, São Paulo</span>
+        <h1 class="hero-title" data-split>
+          <span class="line">Sabor que</span>
+          <span class="line">se <em>sente</em></span>
+          <span class="line">na névoa.</span>
+        </h1>
+      </div>
+
+      <div class="hero-stage">
+        <div class="hero-pod" id="heroPod">
+          <div class="hero-pod-tilt" id="heroTilt">
+            <div class="pod-float" data-pod="hero"></div>
+          </div>
+          <div class="pod-shadow"></div>
+          <div class="vapor-layer" id="heroVapor"></div>
+        </div>
+        <ul class="spec-callouts" aria-label="Especificações do pod">
+          <li class="spec spec--a"><b>650 mAh</b><span>Bateria com recarga USB‑C</span></li>
+          <li class="spec spec--b"><b>Mesh 1.0 Ω</b><span>Vapor denso e sabor fiel</span></li>
+          <li class="spec spec--c"><b>até 15K</b><span>Puffs por pod</span></li>
+        </ul>
+        <div class="hero-feature" aria-live="polite">
+          <span class="hero-feature-dot"></span>
+          <span class="hero-feature-label">Em destaque</span>
+          <strong class="hero-feature-name" id="heroFlavorName">Mango Ice</strong>
+        </div>
+      </div>
+
+      <div class="hero-meta">
+        <p class="hero-sub">Pods premium com 12 sabores autorais, só originais e entrega expressa em São Paulo. Escolha aqui, finalize no WhatsApp e receba em até 60 minutos.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-solid magnetic" href="#experiencia" data-cursor="Provar">Explorar sabores <svg><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-wa magnetic" data-wa="" href="#" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Pedir no WhatsApp</a>
+        </div>
+      </div>
+    </div>
+
+    <a class="scroll-cue" href="#experiencia" aria-label="Rolar para os sabores"><span>Role para provar</span><i><svg><use href="#i-down"/></svg></i></a>
+  </section>
+
+  <!-- FAIXA DE SABORES -->
+  <section class="marquee" aria-label="Sabores disponíveis">
+    <div class="marquee-row" data-dir="-1"><div class="marquee-track" id="marqueeA"></div></div>
+    <div class="marquee-row marquee-row--alt" data-dir="1"><div class="marquee-track" id="marqueeB"></div></div>
+  </section>
+
+  <!-- JORNADA (seção fixada) -->
+  <section class="journey" id="experiencia" aria-label="Degustação guiada de sabores">
+    <div class="jr-pin" id="jrPin">
+      <div class="jr-bg" aria-hidden="true"></div>
+      <div class="jr-bignum" id="jrBignum" aria-hidden="true">01</div>
+      <div class="jr-head wrap">
+        <span class="eyebrow">Degustação guiada</span>
+        <div class="jr-progress" aria-hidden="true">
+          <b id="jrCur">01</b>
+          <span class="jr-track"><i id="jrBar"></i></span>
+          <span id="jrTotal">06</span>
+        </div>
+      </div>
+      <div class="jr-stage" id="jrStage"></div>
+      <div class="jr-texts wrap" id="jrTexts"></div>
+      <div class="jr-hint" id="jrHint" aria-hidden="true">Continue rolando <svg><use href="#i-down"/></svg></div>
+    </div>
+  </section>
+
+  <!-- FILME -->
+  <section class="film" id="filme">
+    <div class="wrap">
+      <header class="section-head">
+        <span class="eyebrow" data-reveal>O filme</span>
+        <h2 class="section-title" data-split>Doze sabores. <em>Dezoito</em> segundos.</h2>
+        <p class="section-lead" data-reveal>A campanha da temporada. Assista até o fim e escolha seu favorito.</p>
+      </header>
+      <div class="player" id="player" data-reveal>
+        <div class="player-stage" id="filmStage"></div>
+        <div class="player-overlay" aria-hidden="true">
+          <span class="player-tag"><i></i>NÉVOA · Campanha 2026</span>
+          <span class="player-tc" id="filmTc">00:00:00</span>
+        </div>
+        <button class="player-big" id="filmBig" type="button" aria-label="Reproduzir filme"><svg><use href="#i-play"/></svg></button>
+        <div class="player-ui">
+          <button class="pl-btn" id="filmToggle" type="button" aria-label="Reproduzir"><svg><use href="#i-play"/></svg></button>
+          <div class="pl-progress" id="filmProgress" role="slider" tabindex="0" aria-label="Progresso do filme" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="pl-marks" id="filmMarks"></div>
+            <div class="pl-fill" id="filmFill"></div>
+          </div>
+          <span class="pl-time" id="filmTime">0:00 / 0:18</span>
+          <button class="pl-btn" id="filmRestart" type="button" aria-label="Recomeçar"><svg><use href="#i-restart"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLEÇÃO -->
+  <section class="shop" id="colecao">
+    <div class="wrap">
+      <header class="section-head section-head--split">
+        <div>
+          <span class="eyebrow" data-reveal>Coleção 2026</span>
+          <h2 class="section-title" data-split>Escolha sua <em>névoa.</em></h2>
+        </div>
+        <div class="filters" role="group" aria-label="Filtrar sabores" data-reveal>
+          <button class="chip is-active" type="button" data-filter="all" aria-pressed="true">Todos</button>
+          <button class="chip" type="button" data-filter="gelados" aria-pressed="false">Gelados</button>
+          <button class="chip" type="button" data-filter="frutados" aria-pressed="false">Frutados</button>
+          <button class="chip" type="button" data-filter="doces" aria-pressed="false">Doces</button>
+          <button class="chip" type="button" data-filter="classicos" aria-pressed="false">Clássicos</button>
+        </div>
+      </header>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="perks" id="boutique">
+    <div class="wrap">
+      <header class="section-head">
+        <span class="eyebrow" data-reveal>Por que NÉVOA</span>
+        <h2 class="section-title" data-split>Curadoria de boutique, <em>agilidade</em> de delivery.</h2>
+      </header>
+      <div class="stats">
+        <div class="stat" data-reveal><b><span data-count="12">12</span></b><span>sabores autorais</span></div>
+        <div class="stat" data-reveal><b><span data-count="15">15</span>K</b><span>puffs no maior pod</span></div>
+        <div class="stat" data-reveal><b><span data-count="60">60</span> min</b><span>entrega expressa</span></div>
+        <div class="stat" data-reveal><b><span data-count="7">7</span> dias</b><span>por semana</span></div>
+      </div>
+      <div class="perk-list">
+        <article class="perk" data-speed="0.1" data-reveal>
+          <span class="perk-icon"><svg><use href="#i-shield"/></svg></span>
+          <h3>Originais e lacrados</h3>
+          <p>Só trabalhamos com lotes rastreáveis. Cada pod sai lacrado e com selo de procedência.</p>
+        </article>
+        <article class="perk" data-speed="0.25" data-reveal>
+          <span class="perk-icon"><svg><use href="#i-bolt"/></svg></span>
+          <h3>Entrega em até 60 min</h3>
+          <p>Motoboy próprio na região central de São Paulo. Para outros bairros, combinamos pelo WhatsApp.</p>
+        </article>
+        <article class="perk" data-speed="0.15" data-reveal>
+          <span class="perk-icon"><svg><use href="#i-chat"/></svg></span>
+          <h3>Atendimento humano</h3>
+          <p>Gente de verdade para indicar sabores, tirar dúvidas e acompanhar seu pedido do início ao fim.</p>
+        </article>
+        <article class="perk" data-speed="0.3" data-reveal>
+          <span class="perk-icon"><svg><use href="#i-card"/></svg></span>
+          <h3>Pix ou cartão</h3>
+          <p>Pix na hora ou cartão em até 3x sem juros, com maquininha na entrega.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO COMPRAR -->
+  <section class="steps" id="como-comprar">
+    <div class="wrap">
+      <header class="section-head">
+        <span class="eyebrow" data-reveal>Como comprar</span>
+        <h2 class="section-title" data-split>Três passos até o <em>primeiro puff.</em></h2>
+      </header>
+      <ol class="step-list">
+        <li class="step" data-reveal>
+          <span class="step-num">1</span>
+          <h3>Monte sua sacola</h3>
+          <p>Escolha sabores e quantidades aqui no site. A sacola fica salva enquanto você navega.</p>
+        </li>
+        <li class="step" data-reveal>
+          <span class="step-num">2</span>
+          <h3>Finalize no WhatsApp</h3>
+          <p>Abrimos a conversa com o resumo do pedido pronto. Você só confirma endereço e pagamento.</p>
+        </li>
+        <li class="step" data-reveal>
+          <span class="step-num">3</span>
+          <h3>Receba ou retire</h3>
+          <p>Entrega expressa ou retirada na boutique. Apresente um documento com foto na entrega.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- BOUTIQUE / LOCALIZAÇÃO -->
+  <section class="visit" id="visite">
+    <div class="wrap visit-grid">
+      <div class="visit-info">
+        <span class="eyebrow" data-reveal>Visite a boutique</span>
+        <h2 class="section-title" data-split>Rua Oscar Freire, <em>Jardins.</em></h2>
+        <div class="status-pill" id="storeStatus" data-reveal><i></i><span>Verificando horário…</span></div>
+        <address class="visit-address" data-reveal>
+          <svg><use href="#i-pin"/></svg>
+          <span><b data-cfg="street"></b><br><span data-cfg="district"></span><br><span data-cfg="cep"></span></span>
+        </address>
+        <ul class="hours" id="hours" data-reveal></ul>
+        <div class="visit-contact" data-reveal>
+          <span class="visit-contact-label">WhatsApp</span>
+          <div class="copy-row">
+            <span class="copy-value" id="waNumber" data-cfg="whatsappDisplay"></span>
+            <button class="copy-btn" id="copyWa" type="button" aria-label="Copiar número do WhatsApp"><svg><use href="#i-copy"/></svg><span>Copiar</span></button>
+          </div>
+        </div>
+        <div class="visit-ctas" data-reveal>
+          <a class="btn btn-solid magnetic" id="mapsLink" href="#" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg>Como chegar</a>
+          <a class="btn btn-wa magnetic" data-wa="Olá, NÉVOA! Quero confirmar o horário de funcionamento da boutique." href="#" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Chamar no WhatsApp</a>
+        </div>
+      </div>
+      <div class="visit-map" data-reveal>
+        <div class="map" id="map"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- RODAPÉ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-cta">
+      <p class="footer-kicker">Pronto para escolher?</p>
+      <a class="footer-big-link" data-wa="" href="#" target="_blank" rel="noopener" data-cursor="Pedir">Peça pelo WhatsApp <svg><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="footer-cols">
+      <div>
+        <h4>Navegue</h4>
+        <a href="#experiencia">Sabores</a><a href="#filme">O filme</a><a href="#colecao">Coleção</a><a href="#visite">Boutique</a>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <a data-wa="" href="#" target="_blank" rel="noopener" data-cfg="whatsappDisplay"></a>
+        <span data-cfg="addressShort"></span>
+      </div>
+      <div>
+        <h4>Horários</h4>
+        <span>Seg a Qui · 10h às 22h</span><span>Sex e Sáb · 10h às 23h</span><span>Dom · 12h às 20h</span>
+      </div>
+    </div>
+    <div class="footer-word" aria-hidden="true" data-split-chars>NÉVOA</div>
+    <div class="footer-legal">
+      <p><b>+18</b> Venda proibida para menores de 18 anos. Este produto contém nicotina, substância que causa dependência química.</p>
+      <p>© <span id="year">2026</span> NÉVOA Pod Boutique. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Sacola -->
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer-overlay" data-close></div>
+  <aside class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+    <header class="drawer-head">
+      <h3 id="drawerTitle">Sua sacola</h3>
+      <button class="icon-btn" type="button" data-close aria-label="Fechar sacola"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <ul class="drawer-items" id="bagItems"></ul>
+    <div class="drawer-empty" id="bagEmpty">
+      <p>Sua sacola está vazia.</p>
+      <a class="btn btn-ghost" href="#colecao" data-close>Ver a coleção</a>
+    </div>
+    <footer class="drawer-foot">
+      <div class="drawer-total"><span>Total</span><strong id="bagTotal">R$ 0,00</strong></div>
+      <a class="btn btn-wa btn-block" id="bagCheckout" href="#" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Finalizar pelo WhatsApp</a>
+      <small>Abrimos o WhatsApp com o resumo do pedido. Entrega e pagamento são combinados na conversa.</small>
+    </footer>
+  </aside>
+</div>
+
+<a class="wa-fab" data-wa="" href="#" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp"><svg><use href="#i-wa"/></svg></a>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/Flip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/pod.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/film.js"></script>
+<script src="js/journey.js"></script>
+<script src="js/motion.js"></script>
+</body>
+</html>
